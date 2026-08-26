@@ -10,6 +10,8 @@
 \usepackage{setspace}
 \usepackage{hyperref}
 \usepackage{microtype}
+\usepackage{graphicx}
+\usepackage{float}
 
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{6pt}
@@ -175,6 +177,44 @@ The system compares calorie intake and expenditure to provide a simple represent
 
 \subsection*{Step 9: Progress Analysis}
 Historical information is used to display weight changes, weekly statistics, and overall progress.
+
+
+\clearpage
+\section{System Diagrams}
+
+The following diagrams present the system structure and data movement of HostelFit. The use case diagram summarizes the user interactions, while the data flow diagrams present the system at Level 0, Level 1, and Level 2.
+
+\clearpage
+\subsection*{Use Case Diagram}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth,height=0.88\textheight,keepaspectratio]{hostelfit_diagrams/Use_Case_Diagram.pdf}
+    \caption{Use Case Diagram of HostelFit}
+\end{figure}
+
+\clearpage
+\subsection*{DFD Level 0 -- Context Diagram}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth,height=0.88\textheight,keepaspectratio]{hostelfit_diagrams/DFD_Level_0_Context_Diagram.pdf}
+    \caption{DFD Level 0 -- Context Diagram}
+\end{figure}
+
+\clearpage
+\subsection*{DFD Level 1 -- HostelFit}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth,height=0.88\textheight,keepaspectratio]{hostelfit_diagrams/DFD_Level_1_HostelFit.pdf}
+    \caption{DFD Level 1 -- HostelFit}
+\end{figure}
+
+\clearpage
+\subsection*{DFD Level 2 -- Meal Logging and Calorie Intake}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth,height=0.88\textheight,keepaspectratio]{hostelfit_diagrams/DFD_Level_2_Meal_Logging_Calorie_Intake.pdf}
+    \caption{DFD Level 2 -- Meal Logging and Calorie Intake (Process 3.0)}
+\end{figure}
 
 \section{Key Features}
 
