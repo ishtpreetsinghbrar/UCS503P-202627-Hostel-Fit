@@ -1,0 +1,33 @@
+{
+  "name": "hostelfit",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "pnpm@11.19.0",
+  "engines": {
+    "node": ">=20.19.0 <25"
+  },
+  "scripts": {
+    "dev:backend": "pnpm --filter @hostelfit/backend dev",
+    "dev:frontend": "pnpm --filter @hostelfit/frontend start",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "typecheck": "pnpm --filter @hostelfit/backend typecheck && pnpm --filter @hostelfit/frontend typecheck",
+    "test": "pnpm --filter @hostelfit/backend test"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.10.1",
+    "@types/react": "^19.2.7",
+    "eslint": "^9.39.1",
+    "eslint-config-prettier": "^10.1.8",
+    "globals": "^16.5.0",
+    "jest": "^30.2.0",
+    "prettier": "^3.6.2",
+    "supertest": "^7.1.4",
+    "ts-jest": "^29.4.5",
+    "typescript": "~5.9.3",
+    "typescript-eslint": "^8.46.0"
+  }
+}
