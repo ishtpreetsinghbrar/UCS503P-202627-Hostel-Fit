@@ -1,0 +1,308 @@
+% HostelFit – Mess Calorie & Workout Tracker
+% Project Proposal -- LaTeX article-style document
+
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[margin=0.86in]{geometry}
+\usepackage{times}
+\usepackage[T1]{fontenc}
+\usepackage{enumitem}
+\usepackage{setspace}
+\usepackage{hyperref}
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage{xcolor}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+\setlist[itemize]{leftmargin=18pt,itemsep=2pt,topsep=2pt}
+\setlist[enumerate]{leftmargin=20pt,itemsep=2pt,topsep=2pt}
+\setlength{\abovecaptionskip}{3pt}
+\setlength{\belowcaptionskip}{3pt}
+
+\title{\textbf{HostelFit -- Mess Calorie \& Workout Tracker}}
+\author{
+\textbf{Aarush Sareen}\\
+1024160027
+\and
+\textbf{Ishtpreet Singh Brar}\\
+1024160022
+\and
+\textbf{Dhruv Singla}\\
+1024160007
+}
+\date{August 19, 2026}
+
+\begin{document}
+
+\begin{center}
+{\LARGE \textbf{HostelFit -- Mess Calorie \& Workout Tracker}\par}
+\vspace{0.15cm}
+{\large Project Proposal for UCS503P\par}
+\vspace{0.15cm}
+Submitted to: Dr. \\
+\textbf{Thapar Institute of Engineering and Technology}
+\vspace{0.20cm}
+
+\begin{tabular}{ccc}
+\textbf{Aarush Sareen} &
+\textbf{Ishtpreet Singh Brar} &
+\textbf{Dhruv Singla} \\[2pt]
+1024160027 & 1024160022 & 1024160007
+\end{tabular}
+
+\vspace{0.12cm}
+
+August 19, 2026
+\end{center}
+
+
+\section{Introduction}
+
+HostelFit is a proposed mobile application designed specifically for hostel students to manage their nutrition and fitness in a convenient and practical manner. The application combines meal tracking, calorie estimation, workout recording, weight tracking, and progress monitoring into a single platform.
+
+Hostel students often face a unique challenge: unlike students living at home, they generally have limited control over their daily meals because hostel mess menus are fixed in advance. At the same time, maintaining fitness goals such as weight loss, muscle gain, or general fitness requires awareness of daily calorie intake and expenditure. HostelFit aims to bridge this gap by adapting fitness tracking to the actual environment and constraints faced by hostel students.
+
+\section{Problem Statement}
+
+Hostel students face difficulties in maintaining a structured diet and fitness routine because of fixed mess menus, busy academic schedules, and the lack of hostel-specific nutrition tracking solutions.
+
+Existing calorie-tracking applications generally require users to manually search for and enter individual food items. This approach becomes inconvenient when students eat meals prepared by a hostel mess. Furthermore, students often have no clear visibility into the relationship between their calorie intake and the calories they expend through daily activities and workouts.
+
+The major problems identified are:
+\begin{itemize}
+    \item Hostel mess menus are fixed and students have limited meal choices.
+    \item Existing calorie trackers require time-consuming manual food searches.
+    \item Generic fitness applications do not adequately consider hostel-specific meal situations.
+    \item Students have limited visibility into their daily calorie balance.
+    \item There is no convenient connection between a student's actual diet, workouts, and fitness goals.
+\end{itemize}
+
+These limitations make it difficult for students to make informed decisions about their nutrition and fitness.
+
+\section{Motivation}
+
+Fitness awareness among college students is increasing, but students living in hostels often lack tools suited to their specific lifestyle.
+
+The key motivation behind HostelFit is the observation that hostel students cannot freely select their meals. Hostel mess menus may be planned in advance, meaning that conventional diet-planning approaches are difficult to follow. Existing fitness and calorie-tracking applications are largely generic and do not focus on this specific environment.
+
+HostelFit therefore aims to transform the fixed mess menu from a limitation into useful nutrition data. By making meal information readily available and combining it with activity tracking, the application can help students understand whether their daily calorie consumption is aligned with their fitness goals.
+
+\section{Aim of the Project}
+
+The primary aim of HostelFit is to develop a hostel-focused mobile application that enables students to:
+\begin{enumerate}
+    \item Track meals obtained from the hostel mess.
+    \item Estimate daily calorie intake.
+    \item Record workouts and physical activity.
+    \item Estimate calorie expenditure.
+    \item Set and monitor personalized fitness targets.
+    \item Track weight and fitness progress.
+    \item Understand their daily calorie balance through simple visual information.
+\end{enumerate}
+
+\section{Objectives}
+
+The major objectives of the project are:
+
+\subsection{Hostel-Specific Meal Tracking}
+To provide pre-loaded hostel mess menus so that users can record meals without repeatedly searching for individual food items.
+
+\subsection{Calorie Intake Estimation}
+To estimate the calories consumed by the user based on the meals selected from the available hostel menu.
+
+\subsection{Workout Tracking}
+To allow students to record their workouts and physical activities so that their calorie expenditure can be estimated.
+
+\subsection{Personalized Targets}
+To provide daily calorie targets based on the user's fitness objectives and relevant personal information.
+
+\subsection{Calorie Balance Monitoring}
+To help users compare calorie intake with calorie expenditure and understand whether they are approximately in a calorie deficit, maintenance state, or surplus.
+
+\subsection{Progress Monitoring}
+To maintain weight history and generate weekly statistics so that users can observe changes in their fitness journey over time.
+
+\section{Proposed Solution}
+
+HostelFit will provide a single platform for nutrition and workout management.
+
+The proposed system will use hostel mess menus as the primary source of meal information. Instead of manually searching for food items, users will be able to select the meal they consumed from the available mess menu.
+
+The application will then combine meal information with workout data to provide an overall view of the user's daily calorie balance.
+
+The proposed solution consists of four major components:
+
+\subsection*{A. Hostel-Specific Design}
+The system will contain pre-loaded hostel mess menus. This reduces the need for manual food entry and makes meal logging faster and more suitable for hostel students.
+
+\subsection*{B. Integrated Tracking}
+The application will combine meal logging and workout recording in one system. Instead of using separate applications for food and exercise, the student will be able to manage both through a unified dashboard.
+
+\subsection*{C. Smart Calculations}
+The system will estimate calorie intake and calorie expenditure and use this information to provide personalized daily targets.
+
+\subsection*{D. Progress Insights}
+The application will provide weekly statistics, weight-tracking history, and a visual representation of calorie balance to make progress easier to understand.
+
+\section{Proposed System Workflow}
+
+The proposed workflow of the application is:
+
+\begin{center}
+\textbf{User Registration $\rightarrow$ Profile Setup $\rightarrow$ Fitness Goal Selection $\rightarrow$ Hostel/Mess Menu Selection $\rightarrow$ Meal Logging $\rightarrow$ Calorie Intake Calculation $\rightarrow$ Workout Logging $\rightarrow$ Calorie Expenditure Estimation $\rightarrow$ Daily Calorie Balance $\rightarrow$ Progress Tracking}
+\end{center}
+
+\subsection*{Step 1: User Profile}
+The user creates an account and enters relevant information required for personalized calculations.
+
+\subsection*{Step 2: Fitness Goal}
+The user selects a goal such as weight loss, muscle gain, or general fitness.
+
+\subsection*{Step 3: Mess Menu}
+The application provides the available hostel mess menu instead of requiring the user to search for food items individually.
+
+\subsection*{Step 4: Meal Logging}
+The student selects the meals consumed during the day.
+
+\subsection*{Step 5: Calorie Calculation}
+The application estimates the total calories consumed based on the selected meals.
+
+\subsection*{Step 6: Workout Logging}
+The student records the workout or physical activity performed.
+
+\subsection*{Step 7: Expenditure Calculation}
+The system estimates calories burned through the recorded activity.
+
+\subsection*{Step 8: Daily Analysis}
+The system compares calorie intake and expenditure to provide a simple representation of the user's daily calorie balance.
+
+\subsection*{Step 9: Progress Analysis}
+Historical information is used to display weight changes, weekly statistics, and overall progress.
+
+\section{Key Features}
+
+The proposed application will include the following features:
+\begin{itemize}
+    \item User registration and profile management.
+    \item Fitness goal selection.
+    \item Hostel and mess selection.
+    \item Pre-loaded mess menus.
+    \item Breakfast, lunch, dinner, and snack logging.
+    \item Daily calorie intake estimation.
+    \item Workout and activity logging.
+    \item Calorie expenditure estimation.
+    \item Personalized calorie targets.
+    \item Daily calorie balance dashboard.
+    \item Weight tracking.
+    \item Weekly progress statistics.
+    \item Historical fitness data.
+    \item Simple graphical representation of progress.
+\end{itemize}
+
+\section{Scope of the Project}
+
+The initial scope of HostelFit is focused on hostel students and their specific dietary and fitness requirements.
+
+The system will primarily address:
+\begin{itemize}
+    \item Hostel mess meal tracking.
+    \item Calorie intake estimation.
+    \item Workout tracking.
+    \item Calorie expenditure estimation.
+    \item Personalized fitness targets.
+    \item Weight and progress tracking.
+\end{itemize}
+
+The project can later be expanded to support additional functionality such as multiple hostel databases, customized food portions, wearable-device integration, notifications, advanced analytics, and more personalized recommendations.
+
+\section{Expected Outcome}
+
+The expected outcome of the project is a functional mobile application that provides hostel students with a convenient way to monitor their food intake and physical activity.
+
+The application is expected to:
+\begin{itemize}
+    \item Reduce the effort required to log hostel meals.
+    \item Provide better visibility into daily calorie consumption.
+    \item Help students understand the relationship between food intake and physical activity.
+    \item Allow students to monitor their fitness progress over time.
+    \item Provide a hostel-specific alternative to generic calorie-tracking applications.
+\end{itemize}
+
+The overall objective is to make fitness tracking simpler and more realistic for students living in hostels.
+
+\section{Benefits of the Proposed System}
+
+HostelFit provides several potential benefits:
+
+\textbf{Convenience:} Students can log meals directly from the hostel menu rather than manually searching for food items.
+
+\textbf{Hostel-specific functionality:} The application is designed around the constraints of hostel mess systems rather than general dietary environments.
+
+\textbf{Integrated tracking:} Nutrition and workouts are managed in one platform.
+
+\textbf{Improved awareness:} Students can see their approximate calorie intake and expenditure.
+
+\textbf{Goal-oriented monitoring:} Users can monitor their progress according to their selected fitness objectives.
+
+\textbf{Data-driven decisions:} Weekly statistics and historical records can help users understand their progress and make more informed fitness decisions.
+
+\section{Proposed Technology}
+
+The project is proposed as a mobile application supported by a backend database for storing user profiles, hostel menus, meal records, workout records, and progress information.
+
+A possible implementation can use:
+\begin{itemize}
+    \item \textbf{Frontend:} Mobile application framework such as Flutter or React Native.
+    \item \textbf{Backend:} Node.js/Express or another suitable backend framework.
+    \item \textbf{Database:} Firebase, MongoDB, or a relational database.
+    \item \textbf{Authentication:} Secure user authentication system.
+    \item \textbf{Data Processing:} Application logic for calorie and progress calculations.
+\end{itemize}
+
+The exact technology stack may be finalized during the implementation phase according to project requirements and development constraints.
+
+
+
+
+\section{System Analysis Diagrams}
+
+The following diagrams represent the HostelFit system from the user's perspective, the overall data flow, the detailed functional decomposition, and the internal flow of meal logging and calorie-intake calculation. They are based on the system workflow and features defined for the project.
+
+\clearpage
+\subsection*{1. Use Case Diagram}
+\begin{center}
+    \includegraphics[page=1,width=0.98\textwidth]{hostelfit_diagrams/HostelFit_Final_Diagrams.pdf}
+\end{center}
+\textbf{Explanation:} The Use Case Diagram shows how the main actors interact with HostelFit. The Hostel Student can create an account, manage the profile, set fitness goals, select a hostel or mess, view the pre-loaded menu, log meals and workouts, record weight, view calorie balance, and monitor progress, weekly statistics, graphs, and historical data. The diagram also shows the supporting backend server and database, while the Admin is associated with managing the mess menu.
+
+\clearpage
+\subsection*{2. DFD Level 0 -- Context Diagram}
+\begin{center}
+    \includegraphics[page=2,width=0.98\textwidth]{hostelfit_diagrams/HostelFit_Final_Diagrams.pdf}
+\end{center}
+\textbf{Explanation:} The Level 0 DFD treats HostelFit as one complete system consisting of the mobile application and backend. The Hostel Student supplies registration and profile data, fitness goals, hostel or mess selection, meal selections, workout or activity records, and weight records. The system returns the mess menu, personalized calorie target, calorie intake and expenditure estimates, daily calorie balance, and progress or weekly statistics.
+
+\clearpage
+\subsection*{3. DFD Level 1 -- HostelFit}
+\begin{center}
+    \includegraphics[page=3,width=0.98\textwidth]{hostelfit_diagrams/HostelFit_Final_Diagrams.pdf}
+\end{center}
+\textbf{Explanation:} The Level 1 DFD decomposes HostelFit into six major processes: managing the profile and fitness goals, providing the hostel or mess menu, logging meals and calculating calorie intake, logging workouts and calculating calorie expenditure, analyzing daily calorie balance, and tracking weight and generating progress insights. The diagram also identifies five main data stores for user profile and goals, hostel or mess menus, meal records, workout records, and progress or weight history. Data moves between the student, processes, and these stores to support the complete fitness-tracking workflow.
+
+\clearpage
+\subsection*{4. DFD Level 2 -- Meal Logging and Calorie Intake}
+\begin{center}
+    \includegraphics[page=4,width=0.98\textwidth]{hostelfit_diagrams/HostelFit_Final_Diagrams.pdf}
+\end{center}
+\textbf{Explanation:} The Level 2 DFD expands Process 3.0, ``Log Meals and Calculate Calorie Intake'', into five smaller processes. First, the student selects the logged meal or meals. The system retrieves the corresponding menu and nutrition details from the hostel or mess menu store, calculates calories for each selected meal, aggregates the daily calorie intake, and saves the meal record with the calculated calories. The resulting calorie-intake estimate is then passed to the daily calorie-balance analysis process. This provides a clear internal view of how a meal selection becomes usable calorie data.
+
+\section{Conclusion}
+
+HostelFit proposes a practical solution to a specific problem faced by hostel students: managing nutrition and fitness despite fixed mess menus and busy schedules.
+
+By combining hostel-specific meal tracking, calorie estimation, workout recording, personalized targets, and progress insights, the proposed application can provide students with a single platform for managing their fitness journey.
+
+The project aims to transform fixed hostel meal schedules from an obstacle into useful, trackable information and provide students with a simpler and more actionable way to work toward their fitness goals.
+
+\end{document}
