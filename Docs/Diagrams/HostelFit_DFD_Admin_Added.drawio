@@ -1,0 +1,457 @@
+<mxfile host="app.diagrams.net" agent="ChatGPT" pages="4">
+  <diagram name="Use Case Diagram" id="HiPGI5ZWNFPgHmTys9jB">
+    <mxGraphModel dx="2546" dy="1511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1900" pageHeight="1060" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="U10" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=24;fontStyle=1;align=center;" value="Use Case Diagram — HostelFit: Mess Calorie &amp;amp; Workout Tracker" vertex="1">
+          <mxGeometry height="50" width="1760" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;align=left;verticalAlign=top;spacingTop=12;spacingLeft=14;fontStyle=1;fontSize=16;" value="HostelFit — System Use Cases" vertex="1">
+          <mxGeometry height="930" width="1250" x="290" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="U12" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1.5;fontSize=13;align=center;verticalAlign=middle;" value="Create Account" vertex="1">
+          <mxGeometry height="70" width="190" x="490" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="U13" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1.5;fontSize=13;align=center;verticalAlign=middle;" value="Manage Profile" vertex="1">
+          <mxGeometry height="70" width="190" x="860" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="U14" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1.5;fontSize=13;align=center;verticalAlign=middle;" value="Set Fitness Goal" vertex="1">
+          <mxGeometry height="70" width="190" x="730" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="U15" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1.5;fontSize=13;align=center;verticalAlign=middle;" value="Calculate Personalized Calorie Target" vertex="1">
+          <mxGeometry height="70" width="240" x="1293" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="U16" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1.5;fontSize=13;align=center;verticalAlign=middle;" value="Select Hostel / Mess" vertex="1">
+          <mxGeometry height="70" width="190" x="300" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="U17" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1.5;fontSize=13;align=center;verticalAlign=middle;" value="View Pre-loaded Mess Menu" vertex="1">
+          <mxGeometry height="70" width="210" x="790" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="U18" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1.5;fontSize=13;align=center;verticalAlign=middle;" value="Log Meal" vertex="1">
+          <mxGeometry height="70" width="190" x="610" y="495" as="geometry" />
+        </mxCell>
+        <mxCell id="U19" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1.5;fontSize=13;align=center;verticalAlign=middle;" value="Estimate Calorie Intake" vertex="1">
+          <mxGeometry height="70" width="210" x="930" y="735" as="geometry" />
+        </mxCell>
+        <mxCell id="U20" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1.5;fontSize=13;align=center;verticalAlign=middle;" value="Log Workout / Activity" vertex="1">
+          <mxGeometry height="70" width="200" x="370" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="U21" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1.5;fontSize=13;align=center;verticalAlign=middle;" value="Record Weight" vertex="1">
+          <mxGeometry height="70" width="190" x="1150" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="U22" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1.5;fontSize=13;align=center;verticalAlign=middle;" value="View Daily Calorie Balance" vertex="1">
+          <mxGeometry height="70" width="220" x="340" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="U23" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1.5;fontSize=13;align=center;verticalAlign=middle;" value="Estimate Calorie Expenditure" vertex="1">
+          <mxGeometry height="70" width="230" x="930" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="U24" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1.5;fontSize=13;align=center;verticalAlign=middle;" value="View Fitness Progress" vertex="1">
+          <mxGeometry height="70" width="200" x="350" y="930" as="geometry" />
+        </mxCell>
+        <mxCell id="U25" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1.5;fontSize=13;align=center;verticalAlign=middle;" value="View Weekly Statistics" vertex="1">
+          <mxGeometry height="70" width="200" x="395" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="U26" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1.5;fontSize=13;align=center;verticalAlign=middle;" value="View Historical Fitness Data" vertex="1">
+          <mxGeometry height="70" width="220" x="1290" y="950" as="geometry" />
+        </mxCell>
+        <mxCell id="U28" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=1.5;fontSize=13;fontStyle=1;align=center;verticalAlign=middle;" value="Manage Mess Menu" vertex="1">
+          <mxGeometry height="70" width="210" x="1300" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="U29" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=14;fontStyle=1;align=center;" value="Supporting System Components" vertex="1">
+          <mxGeometry height="30" width="180" x="1325" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="U30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=1.5;fontSize=13;fontStyle=1;align=center;verticalAlign=middle;" value="Backend Server" vertex="1">
+          <mxGeometry height="75" width="180" x="1325" y="442.5" as="geometry" />
+        </mxCell>
+        <mxCell id="U31" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=1.5;fontSize=13;fontStyle=1;align=center;verticalAlign=middle;" value="Database" vertex="1">
+          <mxGeometry height="85" width="160" x="1090" y="495" as="geometry" />
+        </mxCell>
+        <mxCell id="U32" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fontSize=15;fontStyle=1;" value="Hostel Student" vertex="1">
+          <mxGeometry height="140" width="140" x="60" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="U33" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fontSize=15;fontStyle=1;" value="Admin" vertex="1">
+          <mxGeometry height="120" width="120" x="1630" y="615" as="geometry" />
+        </mxCell>
+        <mxCell id="E34" edge="1" parent="1" source="U32" style="endArrow=none;html=1;rounded=0;strokeWidth=1.4;" target="U12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E35" edge="1" parent="1" source="U32" style="endArrow=none;html=1;rounded=0;strokeWidth=1.4;" target="U13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E36" edge="1" parent="1" source="U32" style="endArrow=none;html=1;rounded=0;strokeWidth=1.4;" target="U14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E37" edge="1" parent="1" source="U32" style="endArrow=none;html=1;rounded=0;strokeWidth=1.4;" target="U16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E38" edge="1" parent="1" source="U32" style="endArrow=none;html=1;rounded=0;strokeWidth=1.4;" target="U18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E39" edge="1" parent="1" source="U32" style="endArrow=none;html=1;rounded=0;strokeWidth=1.4;" target="U20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E40" edge="1" parent="1" source="U32" style="endArrow=none;html=1;rounded=0;strokeWidth=1.4;" target="U21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E41" edge="1" parent="1" source="U32" style="endArrow=none;html=1;rounded=0;strokeWidth=1.4;" target="U22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E42" edge="1" parent="1" source="U32" style="endArrow=none;html=1;rounded=0;strokeWidth=1.4;" target="U24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E43" edge="1" parent="1" source="U33" style="endArrow=none;html=1;rounded=0;strokeWidth=1.4;" target="U28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E44" edge="1" parent="1" source="U14" style="dashed=1;endArrow=classic;html=1;fontSize=18;strokeWidth=1.2;endFill=1;endSize=16;" target="U15" value="&amp;lt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E45" edge="1" parent="1" source="U18" style="dashed=1;endArrow=classic;html=1;fontSize=18;strokeWidth=1.2;endFill=1;endSize=16;" target="U17" value="&amp;lt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E46" edge="1" parent="1" source="U18" style="dashed=1;endArrow=classic;html=1;fontSize=18;strokeWidth=1.2;endFill=1;endSize=16;" target="U19" value="&amp;lt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E47" edge="1" parent="1" source="U22" style="dashed=1;endArrow=classic;html=1;fontSize=18;strokeWidth=1.2;endFill=1;endSize=16;" target="U19" value="&amp;lt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E48" edge="1" parent="1" source="U22" style="dashed=1;endArrow=classic;html=1;fontSize=18;strokeWidth=1.2;endFill=1;endSize=16;" target="U23" value="&amp;lt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E49" edge="1" parent="1" source="U20" style="dashed=1;endArrow=classic;html=1;fontSize=18;strokeWidth=1.2;endFill=1;endSize=16;" target="U23" value="&amp;lt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E50" edge="1" parent="1" source="U27" style="dashed=1;endArrow=classic;html=1;fontSize=18;strokeWidth=1.2;endFill=1;endSize=16;" target="U25" value="&amp;lt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E51" edge="1" parent="1" source="U24" style="dashed=1;endArrow=classic;html=1;fontSize=18;strokeWidth=1.2;endFill=1;endSize=16;" target="U26" value="&amp;lt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E52" edge="1" parent="1" source="U27" style="dashed=1;endArrow=open;html=1;fontSize=11;strokeWidth=1.2;" target="U24" value="&lt;&lt;extend&gt;&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E53" edge="1" parent="1" source="U30" style="dashed=1;endArrow=classic;html=1;fontSize=18;strokeWidth=1;endFill=1;endSize=16;" target="U15" value="processes">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E54" edge="1" parent="1" source="U30" style="dashed=1;endArrow=classic;html=1;fontSize=18;strokeWidth=1;endFill=1;endSize=16;" target="U19" value="processes">
+          <mxGeometry relative="1" x="-0.3383" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E55" edge="1" parent="1" source="U30" style="dashed=1;endArrow=classic;html=1;fontSize=18;strokeWidth=1;endFill=1;endSize=16;" target="U23" value="processes">
+          <mxGeometry relative="1" x="0.1369" y="1" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E56" edge="1" parent="1" source="U30" style="dashed=1;endArrow=classic;html=1;fontSize=18;strokeWidth=1;endFill=1;endSize=16;" target="U28" value="processes">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E57" edge="1" parent="1" source="U31" style="dashed=1;endArrow=classic;html=1;fontSize=17;strokeWidth=1;endFill=1;endSize=16;" target="U13" value="stores">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E58" edge="1" parent="1" source="U31" style="dashed=1;endArrow=classic;html=1;fontSize=18;strokeWidth=1;endFill=1;endSize=16;" target="U18" value="stores">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E59" edge="1" parent="1" source="U31" style="dashed=1;endArrow=classic;html=1;fontSize=18;strokeWidth=1;endFill=1;endSize=15;" target="U20" value="stores">
+          <mxGeometry relative="1" x="-0.2623" y="-2" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E60" edge="1" parent="1" source="U31" style="dashed=1;endArrow=classic;html=1;fontSize=18;strokeWidth=1;endSize=15;endFill=1;" target="U21" value="stores">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E61" edge="1" parent="1" source="U31" style="dashed=1;endArrow=classic;html=1;fontSize=18;strokeWidth=1;endFill=1;endSize=16;" target="U26" value="retrieves">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U64" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=11;fontStyle=2;" value="User-facing functionality" vertex="1">
+          <mxGeometry height="25" width="220" x="335" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="UJQGpg5Nth_OKYlJNQaB-1" edge="1" parent="1" source="U24" style="dashed=1;endArrow=classic;html=1;fontSize=18;strokeWidth=1.2;endFill=1;endSize=16;" target="U27" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="423" y="941" as="sourcePoint" />
+            <mxPoint x="472" y="869" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U27" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1.5;fontSize=13;align=center;verticalAlign=middle;" value="View Progress Graphs" vertex="1">
+          <mxGeometry height="70" width="200" x="660" y="880" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="HostelFit_DFD_Context" name="DFD Level 0 - Context Diagram">
+    <mxGraphModel dx="1620" dy="962" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c_title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=22;fontStyle=1;align=center;" value="Data Flow Diagram — Level 0 (Context Diagram)" vertex="1">
+          <mxGeometry height="40" width="1500" x="100" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c_boundary" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;align=center;verticalAlign=top;spacingTop=12;fontStyle=1;fontSize=14;strokeColor=none;" value="HostelFit — Mess Calorie &amp;amp; Workout Tracker" vertex="1">
+          <mxGeometry height="760" width="1120" x="290" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="c_system" parent="c_boundary" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;fontSize=17;fontStyle=1;" value="HostelFit System&#xa;(Mobile App + Backend)" vertex="1">
+          <mxGeometry height="180" width="320" x="433" y="273" as="geometry" />
+        </mxCell>
+        <mxCell id="c_in1" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeWidth=1.5;fontSize=12;" target="c_system" value="Registration &amp; profile data&#xa;Fitness goal&#xa;Hostel / mess selection">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="450" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c_in2" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeWidth=1.5;fontSize=12;" target="c_system" value="Meal selections&#xa;Workout / activity records&#xa;Weight records">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="450" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c_out" edge="1" parent="1" source="c_system" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeWidth=1.5;fontSize=15;labelBackgroundColor=default;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Mess menu&lt;br&gt;Personalized calorie target&lt;br&gt;Calorie intake &amp;amp; expenditure&lt;br&gt;Daily calorie balance&lt;br&gt;Progress &amp;amp; weekly statistics&lt;/font&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vLl1CVtHnXliz0bAAkVF-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Hostel Student&lt;/font&gt;" vertex="1">
+          <mxGeometry height="100" width="140" x="80" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="c_admin" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Admin&lt;/font&gt;" vertex="1">
+          <mxGeometry height="100" width="140" x="1360" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="c_admin_in" edge="1" parent="1" source="c_admin" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeWidth=1.5;fontSize=12;" target="c_system" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Menu updates / menu item data&lt;/font&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c_admin_out" edge="1" parent="1" source="c_system" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeWidth=1.5;fontSize=12;" target="c_admin" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Menu management&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;status / confirmation&lt;/font&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="HostelFit_DFD_Level1" name="DFD Level 1 - HostelFit">
+    <mxGraphModel dx="1980" dy="1176" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1650" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" style="fontColor=#000000;" />
+        <mxCell id="1" parent="0" style="fontColor=#000000;" />
+        <mxCell id="l_title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=22;fontStyle=1;;fontColor=#000000;align=center;" value="Data Flow Diagram — Level 1 (HostelFit)" vertex="1">
+          <mxGeometry height="40" width="1500" x="70" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="l_boundary" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;align=left;verticalAlign=top;spacingTop=12;fontStyle=1;fontSize=15;;fontColor=#000000;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="900" width="1320" x="300" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p1" parent="l_boundary" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=default;strokeWidth=1.5;align=center;verticalAlign=middle;;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;;fontSize=15;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;;fontColor=#000000;" value="1.0&#xa;Manage Profile &amp;amp;&#xa;Fitness Goals" vertex="1">
+          <mxGeometry height="95" width="230" as="geometry" />
+        </mxCell>
+        <mxCell id="p3" parent="l_boundary" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=default;strokeWidth=1.5;align=center;verticalAlign=middle;;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;;fontSize=15;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;;fontColor=#000000;" value="3.0&#xa;Log Meals &amp;amp;&#xa;Calculate Calorie Intake" vertex="1">
+          <mxGeometry height="95" width="230" x="1070" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="p5" parent="l_boundary" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=default;strokeWidth=1.5;align=center;verticalAlign=middle;;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;;fontSize=15;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;;fontColor=#000000;" value="5.0&#xa;Analyze Daily&#xa;Calorie Balance" vertex="1">
+          <mxGeometry height="95" width="230" x="470" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p6" parent="l_boundary" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=default;strokeWidth=1.5;align=center;verticalAlign=middle;;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;;fontSize=15;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;;fontColor=#000000;" value="6.0&#xa;Track Weight &amp;amp;&#xa;Generate Progress Insights" vertex="1">
+          <mxGeometry height="95" width="250" x="910" y="235" as="geometry" />
+        </mxCell>
+        <mxCell id="d1" parent="l_boundary" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=1;right=1;top=1;bottom=1;fillColor=#fff2cc;strokeColor=default;strokeWidth=1.5;align=center;verticalAlign=middle;;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;;fontSize=15;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;;fontColor=#000000;" value="D1&#xa;User Profile &amp;amp; Goals" vertex="1">
+          <mxGeometry height="60" width="230" x="1090" y="17.5" as="geometry" />
+        </mxCell>
+        <mxCell id="d2" parent="l_boundary" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=1;right=1;top=1;bottom=1;fillColor=#fff2cc;strokeColor=default;strokeWidth=1.5;align=center;verticalAlign=middle;;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;;fontSize=15;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;;fontColor=#000000;" value="D2&#xa;Hostel / Mess Menus" vertex="1">
+          <mxGeometry height="60" width="230" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="d3" parent="l_boundary" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=1;right=1;top=1;bottom=1;fillColor=#fff2cc;strokeColor=default;strokeWidth=1.5;align=center;verticalAlign=middle;;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;;fontSize=15;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;;fontColor=#000000;" value="D3&#xa;Meal Records" vertex="1">
+          <mxGeometry height="60" width="230" x="1070" y="97.5" as="geometry" />
+        </mxCell>
+        <mxCell id="d4" parent="l_boundary" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=1;right=1;top=1;bottom=1;fillColor=#fff2cc;strokeColor=default;strokeWidth=1.5;align=center;verticalAlign=middle;;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;;fontSize=15;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;;fontColor=#000000;" value="D4&#xa;Workout Records" vertex="1">
+          <mxGeometry height="60" width="230" x="470" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="d5" parent="l_boundary" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=1;right=1;top=1;bottom=1;fillColor=#fff2cc;strokeColor=default;strokeWidth=1.5;align=center;verticalAlign=middle;;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;;fontSize=15;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;;fontColor=#000000;" value="D5&#xa;Progress &amp;amp; Weight History" vertex="1">
+          <mxGeometry height="60" width="250" x="910" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="b_s_p6" edge="1" parent="l_boundary" source="p4" style="edgeStyle=none;rounded=0;orthogonalLoop=0;jettySize=auto;html=1;fontSize=15;fontColor=#000000;strokeColor=default;strokeWidth=1.5;startArrow=block;startFill=1;endArrow=block;endFill=1;;" target="p6" value="&lt;div&gt;Weight record / progress request ↔&lt;/div&gt;&lt;div&gt;&amp;nbsp;Weekly statistics / progress graphs / history&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.3194" y="-2" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p4" parent="l_boundary" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=default;strokeWidth=1.5;align=center;verticalAlign=middle;;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;;fontSize=15;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;;fontColor=#000000;" value="4.0&#xa;Log Workout &amp;amp;&#xa;Calculate Calorie Expenditure" vertex="1">
+          <mxGeometry height="95" width="250" x="460" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="p2" parent="l_boundary" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=default;strokeWidth=1.5;align=center;verticalAlign=middle;;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;;fontSize=15;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;;fontColor=#000000;" value="2.0&#xa;Provide Hostel /&#xa;Mess Menu" vertex="1">
+          <mxGeometry height="95" width="230" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="b_p2_d2" edge="1" parent="l_boundary" source="p2" style="edgeStyle=none;rounded=0;orthogonalLoop=0;jettySize=auto;html=1;fontSize=15;fontColor=#000000;strokeColor=default;strokeWidth=1.5;startArrow=block;startFill=1;endArrow=block;endFill=1;;" target="d2" value="&lt;div&gt;Menu lookup ↔&amp;nbsp;&lt;/div&gt;&lt;div&gt;Pre-loaded menu data&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.4419" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b_p2_p3" edge="1" parent="l_boundary" source="p2" style="edgeStyle=none;rounded=0;orthogonalLoop=0;jettySize=auto;html=1;fontSize=15;fontColor=#000000;strokeColor=default;strokeWidth=1.5;endArrow=block;endFill=1;;labelBackgroundColor=none;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" target="p3" value="&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Meal &amp;amp; calorie information&lt;/font&gt;&lt;/span&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RssEqo7J_QjxZAHvAEWv-2" edge="1" parent="l_boundary" source="p2" style="edgeStyle=none;rounded=0;orthogonalLoop=0;jettySize=auto;html=1;fontSize=15;fontColor=#000000;strokeColor=default;strokeWidth=1.5;startArrow=block;startFill=1;endArrow=block;endFill=1;;" target="p4" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="882" as="sourcePoint" />
+            <mxPoint x="1194" y="625" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b_s_p3" edge="1" parent="l_boundary" source="p2" style="edgeStyle=none;rounded=0;orthogonalLoop=0;jettySize=auto;html=1;fontSize=15;fontColor=#000000;strokeColor=default;strokeWidth=1.5;startArrow=block;startFill=1;endArrow=block;endFill=1;;exitX=1;exitY=1;exitDx=0;exitDy=0;" target="p3" value="&lt;div&gt;Selected meals ↔&amp;nbsp;&lt;/div&gt;&lt;div&gt;Calorie intake estimate&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="820" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b_p3_d3" edge="1" parent="l_boundary" style="edgeStyle=none;rounded=0;orthogonalLoop=0;jettySize=auto;html=1;fontSize=15;fontColor=#000000;strokeColor=default;strokeWidth=1.5;startArrow=block;startFill=1;endArrow=block;endFill=1;;" value="&lt;div&gt;Meal record + calories ↔&amp;nbsp;&lt;/div&gt;&lt;div&gt;Meal history&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1260" y="790" as="sourcePoint" />
+            <mxPoint x="1260" y="157.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b_s_p1" edge="1" parent="1" style="edgeStyle=none;rounded=0;orthogonalLoop=0;jettySize=auto;html=1;fontSize=15;fontColor=#000000;strokeColor=default;strokeWidth=1.5;startArrow=block;startFill=1;endArrow=block;endFill=1;;" target="p1" value="&lt;div&gt;Registration, profile data, fitness goal ↔&amp;nbsp;&lt;/div&gt;&lt;div&gt;Personalized calorie target / profile status&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0083" y="-4" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="128.41463414634154" y="370" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b_s_p2" edge="1" parent="1" style="edgeStyle=none;rounded=0;orthogonalLoop=0;jettySize=auto;html=1;fontSize=15;fontColor=#000000;strokeColor=default;strokeWidth=1.5;startArrow=block;startFill=1;endArrow=block;endFill=1;;labelBackgroundColor=default;" target="p2" value="&lt;div&gt;&lt;span style=&quot;&quot;&gt;Hostel / mess selection ↔&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;Available pre-loaded mess menu&lt;/span&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.037" y="4" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="130" y="483.20833333333326" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b_s_p4" edge="1" parent="1" style="edgeStyle=none;rounded=0;orthogonalLoop=0;jettySize=auto;html=1;fontSize=15;fontColor=#000000;strokeColor=default;strokeWidth=1.5;startArrow=block;startFill=1;endArrow=block;endFill=1;;" target="p4" value="&lt;div&gt;Workout / activity record ↔&amp;nbsp;&lt;/div&gt;&lt;div&gt;Calorie expenditure estimate&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="500" />
+            </Array>
+            <mxPoint x="130" y="448.4126984126983" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b_s_p5" edge="1" parent="1" style="edgeStyle=none;rounded=0;orthogonalLoop=0;jettySize=auto;html=1;fontSize=15;fontColor=#000000;strokeColor=default;strokeWidth=1.5;startArrow=block;startFill=1;endArrow=block;endFill=1;;" target="p5" value="Daily calorie balance">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="415.7954545454545" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b_p1_d1" edge="1" parent="1" source="p1" style="edgeStyle=none;rounded=0;orthogonalLoop=0;jettySize=auto;html=1;fontSize=15;fontColor=#000000;strokeColor=default;strokeWidth=1.5;startArrow=block;startFill=1;endArrow=block;endFill=1;;" target="d1" value="&lt;div&gt;Profile &amp;amp; goal data ↔&amp;nbsp;&lt;/div&gt;&lt;div&gt;Stored profile / goal data&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b_p4_d4" edge="1" parent="1" source="p4" style="edgeStyle=none;rounded=0;orthogonalLoop=0;jettySize=auto;html=1;fontSize=15;fontColor=#000000;strokeColor=default;strokeWidth=1.5;startArrow=block;startFill=1;endArrow=block;endFill=1;;" target="d4" value="&lt;div&gt;Workout + expenditure ↔&amp;nbsp;&lt;/div&gt;&lt;div&gt;Workout history&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b_p6_d5" edge="1" parent="1" source="p6" style="edgeStyle=none;rounded=0;orthogonalLoop=0;jettySize=auto;html=1;fontSize=15;fontColor=#000000;strokeColor=default;strokeWidth=1.5;startArrow=block;startFill=1;endArrow=block;endFill=1;;" target="d5" value="&lt;div&gt;Weight + progress history ↔&amp;nbsp;&lt;/div&gt;&lt;div&gt;Historical progress data&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.3514" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b_p1_p5" edge="1" parent="1" source="p1" style="edgeStyle=none;rounded=0;orthogonalLoop=0;jettySize=auto;html=1;fontSize=15;fontColor=#000000;strokeColor=default;strokeWidth=1.5;endArrow=block;endFill=1;;" target="p5" value="Personalized target">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b_d3_p5" edge="1" parent="1" source="d3" style="edgeStyle=none;rounded=0;orthogonalLoop=0;jettySize=auto;html=1;fontSize=15;fontColor=#000000;strokeColor=default;strokeWidth=1.5;endArrow=block;endFill=1;;" target="p5" value="Daily intake">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b_d4_p5" edge="1" parent="1" source="d4" style="edgeStyle=none;rounded=0;orthogonalLoop=0;jettySize=auto;html=1;fontSize=15;fontColor=#000000;strokeColor=default;strokeWidth=1.5;endArrow=block;endFill=1;;" target="p5" value="Daily expenditure">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b_p5_p6" edge="1" parent="1" source="p5" style="edgeStyle=none;rounded=0;orthogonalLoop=0;jettySize=auto;html=1;fontSize=15;fontColor=#000000;strokeColor=default;strokeWidth=1.5;endArrow=block;endFill=1;;" target="p6" value="Calorie balance / analysis result">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MhkH9KLkjOyKFmTLIqRy-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Hostel&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Student&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="115" width="120" x="10" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="l1_admin" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Admin&lt;/font&gt;" vertex="1">
+          <mxGeometry height="100" width="120" x="10" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="l1_admin_to_p2" edge="1" parent="1" source="l1_admin" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeWidth=1.5;fontSize=12;" target="p2" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Menu update /&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&amp;nbsp;menu management data&lt;/font&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="340" y="770" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l1_p2_to_admin" edge="1" parent="1" source="p2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeWidth=1.5;fontSize=12;" target="l1_admin" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Updated menu / management status&lt;/font&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="HostelFit_DFD_Level2" name="DFD Level 2 - Meal Logging &amp; Calorie Intake">
+    <mxGraphModel dx="1782" dy="1058" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="l2_title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=22;fontStyle=1;align=center;" value="Data Flow Diagram — Level 2 (Meal Logging &amp;amp; Calorie Intake — Process 3.0)" vertex="1">
+          <mxGeometry height="40" width="1540" x="30" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="l2_boundary" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;align=left;verticalAlign=top;spacingTop=12;fontStyle=1;fontSize=14;strokeColor=none;" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; HostelFit — Mess Calorie &amp;amp; Workout Tracker" vertex="1">
+          <mxGeometry height="850" width="1240" x="290" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="l2_balance" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;fontSize=13;fontStyle=1;" value="5.0  Analyze Daily Calorie Balance" vertex="1">
+          <mxGeometry height="80" width="220" x="1260" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="p31" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;fontSize=13;" value="3.1 — Select Logged&#xa;Meal(s)" vertex="1">
+          <mxGeometry height="80" width="220" x="470" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="p32" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;fontSize=13;" value="3.2 — Retrieve Menu&#xa;&amp; Nutrition Details" vertex="1">
+          <mxGeometry height="80" width="240" x="800" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="p33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;fontSize=13;" value="3.3 — Calculate Calories&#xa;per Selected Meal" vertex="1">
+          <mxGeometry height="80" width="250" x="1230" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="p34" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;fontSize=13;" value="3.4 — Aggregate Daily&#xa;Calorie Intake" vertex="1">
+          <mxGeometry height="80" width="250" x="1240" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="p35" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;fontSize=13;" value="3.5 — Save Meal Record&#xa;&amp; Intake" vertex="1">
+          <mxGeometry height="80" width="250" x="725" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="l2_d2" parent="1" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=12;fontStyle=1;" value="D2  Hostel / Mess Menus" vertex="1">
+          <mxGeometry height="70" width="200" x="760" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="l2_d3" parent="1" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=12;fontStyle=1;" value="D3  Meal Records" vertex="1">
+          <mxGeometry height="70" width="200" x="420" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="l2f1" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeWidth=1.5;fontSize=15;" target="p31" value="Selected meals">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260.0000000000002" y="190" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l2f2" edge="1" parent="1" source="p31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeWidth=1.5;fontSize=15;" target="p32" value="Meal selection details">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l2f3" edge="1" parent="1" source="p32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeWidth=1.5;fontSize=11;" target="l2_d2" value="Menu lookup">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l2f4" edge="1" parent="1" source="l2_d2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeWidth=1.5;fontSize=15;" target="p32" value="Menu item + calorie data">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l2f5" edge="1" parent="1" source="p32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeWidth=1.5;fontSize=15;" target="p33" value="Meal nutrition data">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l2f6" edge="1" parent="1" source="p33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeWidth=1.5;fontSize=15;" target="p34" value="Calories for selected meal">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l2f7" edge="1" parent="1" source="l2_d3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeWidth=1.5;fontSize=15;" target="p34" value="Daily meal history">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520.08" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l2f8" edge="1" parent="1" source="p34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeWidth=1.5;fontSize=15;" target="p35" value="Daily intake total">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1365" y="640" />
+              <mxPoint x="850.08" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l2f9" edge="1" parent="1" source="p35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeWidth=1.5;fontSize=15;" target="l2_d3" value="Meal record + calculated calories">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l2f10" edge="1" parent="1" source="p35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeWidth=1.5;fontSize=15;" target="l2_balance" value="Calorie intake estimate">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nP7CxUtDtllUAIuppsXC-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Hostel Student&lt;/font&gt;" vertex="1">
+          <mxGeometry height="100" width="170" x="90" y="140" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
