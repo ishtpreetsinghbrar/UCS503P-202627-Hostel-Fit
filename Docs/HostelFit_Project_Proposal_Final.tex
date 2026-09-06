@@ -10,15 +10,13 @@
 \usepackage{setspace}
 \usepackage{hyperref}
 \usepackage{microtype}
-\usepackage{graphicx}
-\usepackage{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning,shapes.geometric}
 
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{6pt}
 \setlist[itemize]{leftmargin=18pt,itemsep=2pt,topsep=2pt}
 \setlist[enumerate]{leftmargin=20pt,itemsep=2pt,topsep=2pt}
-\setlength{\abovecaptionskip}{3pt}
-\setlength{\belowcaptionskip}{3pt}
 
 \title{\textbf{HostelFit -- Mess Calorie \& Workout Tracker}}
 \author{
@@ -145,12 +143,46 @@ The system will estimate calorie intake and calorie expenditure and use this inf
 \subsection*{D. Progress Insights}
 The application will provide weekly statistics, weight-tracking history, and a visual representation of calorie balance to make progress easier to understand.
 
+\clearpage
 \section{Proposed System Workflow}
 
 The proposed workflow of the application is:
 
 \begin{center}
-\textbf{User Registration $\rightarrow$ Profile Setup $\rightarrow$ Fitness Goal Selection $\rightarrow$ Hostel/Mess Menu Selection $\rightarrow$ Meal Logging $\rightarrow$ Calorie Intake Calculation $\rightarrow$ Workout Logging $\rightarrow$ Calorie Expenditure Estimation $\rightarrow$ Daily Calorie Balance $\rightarrow$ Progress Tracking}
+\begin{tikzpicture}[
+    node distance=5mm and 9mm,
+    box/.style={
+        rectangle, rounded corners=2pt, draw=black, thick,
+        align=center, minimum width=4.7cm, minimum height=0.78cm,
+        font=\small
+    },
+    decision/.style={
+        diamond, draw=black, thick, align=center,
+        aspect=2.2, inner sep=1.5pt, font=\small
+    },
+    arrow/.style={-{Latex[length=2mm]}, thick}
+]
+\node[box] (reg) {User Registration};
+\node[box, below=of reg] (profile) {Profile Setup};
+\node[box, below=of profile] (goal) {Fitness Goal Selection};
+\node[box, below=of goal] (menu) {Hostel/Mess Menu Selection};
+\node[box, below=of menu] (meal) {Meal Logging};
+\node[box, below=of meal] (intake) {Calorie Intake Calculation};
+\node[box, below=of intake] (workout) {Workout Logging};
+\node[box, below=of workout] (expend) {Calorie Expenditure Estimation};
+\node[box, below=of expend] (balance) {Daily Calorie Balance};
+\node[box, below=of balance] (progress) {Progress Tracking};
+
+\draw[arrow] (reg) -- (profile);
+\draw[arrow] (profile) -- (goal);
+\draw[arrow] (goal) -- (menu);
+\draw[arrow] (menu) -- (meal);
+\draw[arrow] (meal) -- (intake);
+\draw[arrow] (intake) -- (workout);
+\draw[arrow] (workout) -- (expend);
+\draw[arrow] (expend) -- (balance);
+\draw[arrow] (balance) -- (progress);
+\end{tikzpicture}
 \end{center}
 
 \subsection*{Step 1: User Profile}
@@ -263,39 +295,6 @@ A possible implementation can use:
 The exact technology stack may be finalized during the implementation phase according to project requirements and development constraints.
 
 
-
-
-\section{System Analysis Diagrams}
-
-The following diagrams represent the HostelFit system from the user's perspective, the overall data flow, the detailed functional decomposition, and the internal flow of meal logging and calorie-intake calculation. They are based on the system workflow and features defined for the project.
-
-\clearpage
-\subsection*{1. Use Case Diagram}
-\begin{center}
-    \includegraphics[page=1,width=0.98\textwidth]{hostelfit_diagrams/HostelFit_Final_Diagrams.pdf}
-\end{center}
-\textbf{Explanation:} The Use Case Diagram shows how the main actors interact with HostelFit. The Hostel Student can create an account, manage the profile, set fitness goals, select a hostel or mess, view the pre-loaded menu, log meals and workouts, record weight, view calorie balance, and monitor progress, weekly statistics, graphs, and historical data. The diagram also shows the supporting backend server and database, while the Admin is associated with managing the mess menu.
-
-\clearpage
-\subsection*{2. DFD Level 0 -- Context Diagram}
-\begin{center}
-    \includegraphics[page=2,width=0.98\textwidth]{hostelfit_diagrams/HostelFit_Final_Diagrams.pdf}
-\end{center}
-\textbf{Explanation:} The Level 0 DFD treats HostelFit as one complete system consisting of the mobile application and backend. The Hostel Student supplies registration and profile data, fitness goals, hostel or mess selection, meal selections, workout or activity records, and weight records. The system returns the mess menu, personalized calorie target, calorie intake and expenditure estimates, daily calorie balance, and progress or weekly statistics.
-
-\clearpage
-\subsection*{3. DFD Level 1 -- HostelFit}
-\begin{center}
-    \includegraphics[page=3,width=0.98\textwidth]{hostelfit_diagrams/HostelFit_Final_Diagrams.pdf}
-\end{center}
-\textbf{Explanation:} The Level 1 DFD decomposes HostelFit into six major processes: managing the profile and fitness goals, providing the hostel or mess menu, logging meals and calculating calorie intake, logging workouts and calculating calorie expenditure, analyzing daily calorie balance, and tracking weight and generating progress insights. The diagram also identifies five main data stores for user profile and goals, hostel or mess menus, meal records, workout records, and progress or weight history. Data moves between the student, processes, and these stores to support the complete fitness-tracking workflow.
-
-\clearpage
-\subsection*{4. DFD Level 2 -- Meal Logging and Calorie Intake}
-\begin{center}
-    \includegraphics[page=4,width=0.98\textwidth]{hostelfit_diagrams/HostelFit_Final_Diagrams.pdf}
-\end{center}
-\textbf{Explanation:} The Level 2 DFD expands Process 3.0, ``Log Meals and Calculate Calorie Intake'', into five smaller processes. First, the student selects the logged meal or meals. The system retrieves the corresponding menu and nutrition details from the hostel or mess menu store, calculates calories for each selected meal, aggregates the daily calorie intake, and saves the meal record with the calculated calories. The resulting calorie-intake estimate is then passed to the daily calorie-balance analysis process. This provides a clear internal view of how a meal selection becomes usable calorie data.
 
 \section{Conclusion}
 
