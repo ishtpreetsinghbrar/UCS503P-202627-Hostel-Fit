@@ -212,6 +212,67 @@ The system compares calorie intake and expenditure to provide a simple represent
 \subsection*{Step 9: Progress Analysis}
 Historical information is used to display weight changes, weekly statistics, and overall progress.
 
+\section{Software Development Pipeline}
+
+The development of HostelFit follows a structured software engineering pipeline that connects requirements, system modelling, implementation, verification, and deployment. The planned workflow is illustrated below.
+
+\begin{center}
+\begin{tikzpicture}[
+    node distance=5mm and 7mm,
+    box/.style={
+        rectangle, rounded corners=2pt, draw=black, thick,
+        align=center, minimum width=3.9cm, minimum height=0.72cm,
+        font=\small
+    },
+    smallbox/.style={
+        rectangle, rounded corners=2pt, draw=black,
+        align=center, minimum width=3.4cm, minimum height=0.62cm,
+        font=\footnotesize
+    },
+    arrow/.style={-{Latex[length=2mm]}, thick}
+]
+\node[box] (req) {1. Requirements Analysis};
+\node[box, below=of req] (design) {2. System Design};
+\node[smallbox, below left=7mm and 11mm of design] (uc) {Use Case + DFD 0/1/2};
+\node[smallbox, below right=7mm and 11mm of design] (arch) {Web Architecture};
+\node[box, below=20mm of design] (data) {3. Database Design};
+\node[box, below=of data] (impl) {4. Backend + Frontend Development};
+\node[smallbox, below left=7mm and 11mm of impl] (back) {REST API + Services};
+\node[smallbox, below right=7mm and 11mm of impl] (front) {Web UI + Dashboard};
+\node[box, below=20mm of impl] (integration) {5. System Integration};
+\node[box, below=of integration] (test) {6. Testing + Security Verification};
+\node[box, below=of test] (deploy) {7. Deployment + Maintenance};
+
+\draw[arrow] (req) -- (design);
+\draw[arrow] (design) -- (uc);
+\draw[arrow] (design) -- (arch);
+\draw[arrow] (uc) |- (data);
+\draw[arrow] (arch) |- (data);
+\draw[arrow] (data) -- (impl);
+\draw[arrow] (impl) -- (back);
+\draw[arrow] (impl) -- (front);
+\draw[arrow] (back) |- (integration);
+\draw[arrow] (front) |- (integration);
+\draw[arrow] (integration) -- (test);
+\draw[arrow] (test) -- (deploy);
+\end{tikzpicture}
+\end{center}
+
+\subsection*{Pipeline Description}
+\textbf{Requirements Analysis:} The project requirements are identified from the hostel-specific problem, including meal tracking, calorie estimation, workout tracking, personalized targets, and progress monitoring.
+
+\textbf{System Design:} Requirements are translated into the Use Case Diagram and DFD Levels 0, 1, and 2, followed by definition of the web application architecture.
+
+\textbf{Database Design:} The required entities and relationships are defined for profiles, fitness goals, hostel/mess menus, meal records, workout records, weight history, and progress information.
+
+\textbf{Backend and Frontend Development:} The backend provides authentication, REST APIs, and application logic, while the frontend provides the web interface for students and authorized administrators.
+
+\textbf{System Integration:} The web interface is connected to backend services and the database so that user actions produce and retrieve real application data.
+
+\textbf{Testing and Security Verification:} Functional, integration, interface, validation, authentication, authorization, and security checks are performed before release.
+
+\textbf{Deployment and Maintenance:} The tested system is deployed as a web application and maintained through controlled updates and fixes.
+
 \section{Key Features}
 
 The proposed application will include the following features:
